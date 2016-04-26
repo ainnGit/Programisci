@@ -11,6 +11,7 @@ public class Starter {
 		iCal cal = new iCal("Pierwszy", 1);
 		iCal cal2 = new iCal("Drugi", 2);
 		iCal cal3 = new iCal("Trzeci", 3);
+		iCal cal4 = new iCal("Czwarty", 4);
 		
 		System.out.println("Pierwszy iCal.");
 		cal.desc();
@@ -20,5 +21,8 @@ public class Starter {
 		
 		System.out.println("Trzeci iCal");
 		cal3.desc();
+		
+		System.out.println("Czwarty iCal");
+		cal4.desc();
 	}
 }
